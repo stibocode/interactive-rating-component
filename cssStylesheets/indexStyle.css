@@ -1,3 +1,20 @@
 body {
+  margin: 0;
   padding: 0;
+  /* background-image: url("/images/designs/desktop-design.jpg"); */
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
 }
+
+.ratingGeneralBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  width: 31vw;
+  height: 31vw;
+  transform: translate(-50%, -50%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+}
+
