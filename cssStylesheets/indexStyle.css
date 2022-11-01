@@ -73,6 +73,13 @@ body {
 
 .ratingGeneralBox .ratingButtons .buttonMark:hover {
   cursor: pointer;
+  background-color:hsl(25, 97%, 53%);
+  color: white;
+}
+
+.ratingGeneralBox .ratingButtons .buttonMark:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
 }
 
 .ratingGeneralBox .sendButton {
@@ -88,4 +95,6 @@ body {
 
 .ratingGeneralBox .sendButton:hover {
   cursor: pointer;
+  background-color: white;
+  color:hsl(25, 97%, 53%);
 }
