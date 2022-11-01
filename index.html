@@ -10,24 +10,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+  
 </head>
 <body>
   <section class="ratingGeneralBox">
     <div class="starIconCircle">
       <img class="starIcon" src="images/icon-star.svg" alt="Icon of a star.">
     </div>
-    <h2>How did we do?</h2>
+    <h2 id="jaja">How did we do?</h2>
     <p>
       Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
     </p>
     <div class="ratingButtons">
-      <button class="oneMark buttonMark">1</button>
-      <button class="twoMark buttonMark">2</button>
-      <button class="threeMark buttonMark">3</button>
-      <button class="fourMark buttonMark">4</button>
-      <button class="fiveMark buttonMark">5</button>
+      <button id="oneMark" class="buttonMark">1</button>
+      <button id="twoMark" class="buttonMark">2</button>
+      <button id="threeMark" class="buttonMark">3</button>
+      <button id="fourMark" class="buttonMark">4</button>
+      <button id="fiveMark" class="buttonMark">5</button>
     </div>
-    <button class="sendButton">SUBMIT</button>
+    <button id="submitButton" class="sendButton" type="button">SUBMIT</button>
   </section>
+  <script type="text/javascript" src="function.js"></script>
+  
 </body>
 </html>

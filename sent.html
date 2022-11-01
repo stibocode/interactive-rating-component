@@ -7,12 +7,16 @@
   <title>Thank you!</title>
   <link rel="icon" type="image/png" href="images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="cssStylesheets/sentStyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+  <script type="text/javascript" src="function.js"></script>
 </head>
 <body>
   <section class="generalBox">
     <img src="images/illustration-thank-you.svg" alt="Process finished image. Thank you. ">
     <div class="userRatingText">
-      <p>You selected 4 out of 5</p>
+      <p id="userRatingLabel">You selected 4 out of 5</p>
     </div>
     <h2>Thank you!</h2>
     <p>
@@ -20,5 +24,10 @@
       If you ever need more support, don't hesitate to get in touch!
     </p>
   </section>
+  <!-- <script>
+    
+    document.getElementById('userRatingLabel').innerHTML=`holaaa ${numberRating}`;
+  </script> -->
+  <script type="text/javascript" src="function.js"></script>
 </body>
 </html>
