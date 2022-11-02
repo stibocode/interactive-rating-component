@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interactive Rating</title>
   <link rel="icon" type="image/png" href="images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="cssStylesheets/indexStyle.css">
+  <link rel="stylesheet" type="text/css" href="indexStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
   
 </head>
 <body>
+  <!-- FIRST CARD (RATING). -->
   <section class="ratingGeneralBox">
     <div class="starIconCircle">
       <img class="starIcon" src="images/icon-star.svg" alt="Icon of a star.">
@@ -30,9 +31,19 @@
     </div>
     <button id="submitButton" class="sendButton" type="button">SUBMIT</button>
   </section>
-  <script type="text/javascript" src="functionIndex.js"></script>
-  <!-- <script type="/module" src="functionSent.js"></script> -->
-  
+  <!-- SECOND CARD (THANK YOU). -->
+  <section class="generalBox">
+    <img src="images/illustration-thank-you.svg" alt="Process finished image. Thank you. ">
+    <div class="userRatingText">
+      <p id="userRatingLabel">You selected 4 out of 5</p>
+    </div>
+    <h2>Thank you!</h2>
+    <p>
+      We appreciate you taking the time to give a rating.<br>
+      If you ever need more support, don't hesitate to get in touch!
+    </p>
+  </section>
+  <script type="text/javascript" src="function.js"></script>
 </body>
 </html>
 
