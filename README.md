@@ -1,5 +1,5 @@
 # Frontend Mentor - Interactive rating component solution
-Product preview card component created using HTML &amp; CSS for frontendmentor.io .
+Interactive rating component created using HTML, CSS &amp; JavaScript for frontendmentor.io .
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Table of contents
