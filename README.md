@@ -52,3 +52,4 @@ Users should be able to:
 ## About me
 - Portfolio: [Stiven Ojeda](https://stibojeda.github.io)
 - Linkedin: [Stiven Ojeda](https://www.linkedin.com/in/stiven-ojeda-090a3924a)
+- GitHub: [Stiven Ojeda](https://github.com/stibojeda)
